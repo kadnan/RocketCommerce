@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🚀 Welcome to  RocketShop - Basket</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     <style>
+        .margin-top {
+            margin-top: 30px;
+        }
+        .medium-margin-top {
+            margin-top: 60px;
+        }
+    </style>
+    <div class="container">
+        <div class="row margin-top">
+            <div class="col-md-12">
+                <h1>Welcome to 🚀 RocketShop</h1>
+                <h4 style="color: darkgray">The world's first eva shop where you buy stuff in XLM!!!!</h4>
+            </div>
+        </div>
+        <div class="row medium-margin-top">
+            <form action="/pay" method="POST">
+                <div class="row margin-top">
+                    <div class="col-md-8 col-md-offset-1">
+                        <div class="form-group">
+                            <label for="addr">Your XLM Address:</label>
+                            <input readonly required name="addr" value="GA36WRQJSJIKTAKD2MJNVGUXUGLBAXEKKXIQENRNU3J5PNEZLCCD3M5L" type="addr" class="form-control" id="addr" placeholder="e.g: GAFNKWN2GX7FCCSYLS36OUN2NIWJAU4UVZC44MVTQQX6HDAUZ2ARQLDI">
+                        </div>
+                        <div class="form-group">
+                            <label for="amt">Amount to Pay:</label>
+                            <input required name="amt" value="" type="number" class="form-control" id="amt" placeholder="">
+                        </div>
+                        <button type="submit" class="btn btn-success">Pay</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
