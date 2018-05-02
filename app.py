@@ -1,7 +1,7 @@
 import json
 
 from flask import Flask, redirect
-from flask import render_template, request
+from flask import render_template
 from stellar_base.builder import Builder
 from stellar_base.keypair import Keypair
 
