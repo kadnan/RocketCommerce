@@ -1,0 +1,3 @@
+Flask==1.0.1
+stellar-base==0.1.8.1
+
